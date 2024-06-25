@@ -1,0 +1,191 @@
+*{
+    font-family: calibri;
+}
+/* navbar style starts */
+nav{
+    background-color: orangered;
+}
+.navbar ul li a{
+    color: white;
+}
+/* navbar style ends */
+/* carousel style starts */
+.carousel-inner{
+    height: 350px;
+}
+#banner{
+    padding: 60px;
+    background-color: rgb(235, 238, 238);
+}
+#banner .row .carousel-item{
+    height: 400px;
+}
+#banner #demo .carousel-indicators button{
+    background-color: black;
+}
+#banner #demo .carousel-indicators{
+    justify-content: start;
+    margin: 0%;
+    padding: 0%;
+}
+ /*carousel style ends  */
+ #about .text-center::after{
+    content: "";
+    display: block;
+    width: 100px;
+    background: black;
+    height: 3px;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+#about .row .icons {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-right: 100px;
+    
+}
+#about .row .icons i{
+    background-color: orangered ;
+    padding-top: 20px;
+    width: 80px;
+    height: 80px;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 250%;
+}
+#about .container .row .col-md-4{
+    animation: name 2s ease infinite reverse;
+}
+@keyframes name{
+    0%{transform: rotateY(0deg);
+    }
+    100%{
+        transform: rotateY(360deg);
+    }
+}
+/* testmonial style starts */
+#testmonial{
+    margin-top: 40px;
+}
+#testmonial .text-center{
+    margin-bottom: 40px;
+}
+#testmonial h1{
+    text-align: center;
+ }
+ #testmonial .text-center::after{
+    content: "";
+    display: block;
+    width: 100px;
+    background: black;
+    height: 3px;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+ #testmonial .row .card{
+    background-color: orangered;
+    color: white;
+    border: none;
+}
+#testmonial .row .card .card-footer{
+    background-color: white;
+    color: black;
+    display: flex;
+}
+#testmonial .row .col-md-7{
+    justify-content: start;
+}
+#testmonial .row .col-md-5{
+    text-align: center;
+}
+#testmonial .row1 .col1 .col-md-7{
+    text-align: left;
+    margin-top: 20px;
+}
+/* testmonial style ends */
+#news{
+    margin-bottom: 40px;
+}
+#news h1{
+    text-align: center;
+    margin: 40px;
+  }
+  #news h1::after{
+    content: "";
+    display: block;
+    width: 100px;
+    background: black;
+    height: 3px;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+/* #news .container .row .col-md-7 p{
+    animation: name 5s ease infinite reverse;
+} */
+/* #news .container .row .col-md-7 img{
+     animation: name 5s ease infinite reverse;
+}
+@keyframes name{
+    0%{transform: rotateY(0deg);
+    }
+    100%{
+        transform: rotateY(360deg);
+    }
+} */
+#news .container .news1 .row .col-md-7{
+    position: relative;
+}
+#news .container .news1 .row .col-md-7 p{
+    position: absolute;
+    top: 2%;
+    right: 2%;
+    padding: 0 10px;
+    background-color: aliceblue;
+}
+ .news2 .row .col-md-7{
+    position: relative;
+}
+ .news2 .row .col-md-7 p{
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    padding: 0 10px;
+    background-color: white;
+}
+#contact .jumbo{
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+/* Footer styles starts here */
+#footer {
+    background-color: black;
+    color: white;
+}
+#footer .row .icon{
+    margin-top: 10px;
+    color: white;
+    word-spacing: 10px;
+}
+#footer .row p{
+    color: rgb(150, 148, 148);
+}
+#footer .row  .icon a{
+    color: rgb(150, 148, 148);
+    padding: 10px;
+}
+#footer .rights{
+    border: 1px solid rgb(56, 56, 56);
+    text-align: center;
+    background-color: black;
+    color: rgb(150, 148, 148);
+    padding: 10px;
+}
+#footer .input-group-text{
+    background-color: orangered;
+    color: white;
+    border: 1px solid orangered;
+}
+/* footer style ends here */
